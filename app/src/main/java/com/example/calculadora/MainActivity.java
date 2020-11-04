@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(operacio.getId()== R.id.suma)
         {
             resultat=n01+n02;
-            resul.setText(n01+" + "+n02+" = "+resultat);
+            resul.setText(n01+" + "+n02+" = "+resultat+"==");
         }
         else if(operacio.getId()== R.id.resta)
         {
